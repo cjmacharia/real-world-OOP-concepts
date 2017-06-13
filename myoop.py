@@ -8,6 +8,16 @@ class Doctor:
 	def typhoid(self):
 		print "go for blood test"		
 	def update(self):
-		print "please"
-child=Doctor()
-child.cough()
+		print "get tested"
+
+
+# implementing inheritance the nurse is inheriting from the doctor 
+
+class Nurse(Doctor):
+	def __init__(self):
+		self.getPatient()
+	def medicine():
+		pass
+	def getPatient():
+		pass			
+	
